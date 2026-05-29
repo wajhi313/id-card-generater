@@ -1,0 +1,82 @@
+body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f6f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .id-card {
+      width: 30%;
+      height: 450px;
+      background: linear-gradient(135deg, #004aad, #007bff);
+      color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      overflow: hidden;
+    }
+
+    .id-header {
+      text-align: center;
+      padding: 15px;
+      background-color: #003b8e;
+    }
+
+    .id-header h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .id-header p {
+      font-size: 12px;
+      margin: 2px 0 0;
+    }
+
+    .photo {
+      text-align: center;
+      margin: 15px 0;
+    }
+
+    .photo img {
+      width: 90px;
+      height: 100px;
+      border-radius: 6px;
+      border: 2px solid #fff;
+    }
+
+    .details {
+      background-color: #fff;
+      color: #000;
+      padding: 15px;
+      border-radius: 0 0 12px 12px;
+    }
+
+    .details h3 {
+      text-align: center;
+      margin-bottom: 10px;
+      color: #004aad;
+    }
+
+    .details p {
+      font-size: 14px;
+      margin: 4px 0px;
+      padding: 5px 5px;
+    }
+
+    .barcode {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+   .barcode img {
+    width: 223px;
+    height: 74px;
+}
+
+    .barcode-text {
+      font-size: 13px;
+      margin-top: 5px;
+      color: #004aad;
+      font-weight: bold;
+    }

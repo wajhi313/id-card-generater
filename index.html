@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-generater</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="./stylee/style.css">
+</head>
+
+<body>
+    <div class="card-body">
+
+        <!-- top -->
+        <div class="topSection">
+            <i class="fa-regular fa-paste"></i>
+
+            <div class="text">
+                <h1>Student Card Form</h1>
+                <p>Fill the details below to generate your student card</p>
+            </div>
+        </div>
+
+        <!-- picr upload -->
+         <div class="picSection">
+          <h4>Profile Picture (Upload photo)</h4>
+          <div class="upload-area">
+          <div class="ChooseFile">
+            <input type="file" accept="image/* " id="fileInput">
+            </div>
+            <div class="profile-img">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/003/715/527/small/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-vector.jpg" alt="" width="80px" height="80px">
+            </div>
+        </div>
+        </div>
+
+        <!-- form -->
+        <div class="formSection">
+            <div class="input-field">
+                <label for="">Name</label>
+                <input type="text" placeholder="Enter your name">
+            </div>
+
+            <div class="input-field">
+                <label for="">Father's Name</label>
+                <input type="text" placeholder="Enter your father's name">
+            </div>
+
+            <div class="input-field">
+                <label for="">Cnic</label>
+                <input type="text" placeholder="Enter your cnic">
+            </div>
+
+            <div class="input-field">
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter your email">
+            </div>
+
+            <div class="input-field">
+                <label for="">Gender</label>
+                <div class="male-female">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+
+            <button class="generate" type="button">Generate Card</button>
+
+
+    </div>
+</body>
+
+</html>
