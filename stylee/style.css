@@ -8,8 +8,8 @@ body{
 
 .card-body{
     background-color: white;
-    width: 80%;
-    margin: 20px auto;
+    width: 75%;
+    margin: 10px auto;
     padding: 10px;
 }
 
@@ -62,12 +62,13 @@ body{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 1px solid #007bff6c;
+  /* border: 1px solid #007bff6c; */
   padding: 10px;
   padding-bottom: 5px;
   border-radius: 8px;
   background-color: #f9f9f9;
   width: 50%;
+  padding-bottom: 0;
 }
 
 .ChooseFile {
@@ -92,17 +93,17 @@ form {
 
 .formSection {
   width: 80%;
-    margin: 20px auto;
+    margin: 5px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 18px;
+    gap: 15px;
 }
 
 .input-field {
   display: flex;
   flex-direction: column;
-      border: 1px solid #007bff6c;
+      /* border: 1px solid #007bff6c; */
     padding: 10px;
     padding-bottom: 5px;
     border-radius: 8px;

@@ -27,7 +27,7 @@
           <h4>Profile Picture (Upload photo)</h4>
           <div class="upload-area">
           <div class="ChooseFile">
-            <input type="file" accept="image/* " id="fileInput">
+            <input type="file" accept="image/*" id="fileInput">
             </div>
             <div class="profile-img">
                 <img src="https://static.vecteezy.com/system/resources/thumbnails/003/715/527/small/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-vector.jpg" alt="" width="80px" height="80px">
@@ -38,27 +38,37 @@
         <!-- form -->
         <div class="formSection">
             <div class="input-field">
-                <label for="">Name</label>
-                <input type="text" placeholder="Enter your name">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
             </div>
 
             <div class="input-field">
-                <label for="">Father's Name</label>
-                <input type="text" placeholder="Enter your father's name">
+                <label for="fatherName">Father's Name</label>
+                <input type="text" id="fatherName" placeholder="Enter your father's name">
             </div>
 
             <div class="input-field">
-                <label for="">Cnic</label>
-                <input type="text" placeholder="Enter your cnic">
+                <label for="cnic">Cnic</label>
+                <input type="text" id="cnic" placeholder="Enter your cnic">
             </div>
 
             <div class="input-field">
-                <label for="">Email</label>
-                <input type="email" placeholder="Enter your email">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter your email">
             </div>
 
             <div class="input-field">
-                <label for="">Gender</label>
+                <label for="course">Course</label>
+                <select id="course">
+                    <option value="Data AI">Data AI</option>
+                    <option value="Information Technology">Information Technology</option>
+                    <option value="Software Engineering">Software Engineering</option>
+                    <option value="Data Science">Data Science</option>
+                </select>
+            </div>
+
+            <div class="input-field">
+                <label for="gender">Gender</label>
                 <div class="male-female">
                     <input type="radio" id="male" name="gender" value="male">
                     <label for="male">Male</label>
@@ -69,10 +79,13 @@
                 </div>
             </div>
 
-            <button class="generate" type="button">Generate Card</button>
-
+<button class="generate" type="button" onclick="generateCard()">
+  Generate Card
+</button>
 
     </div>
+
+    <script src="app.js"></script>
 </body>
 
 </html>
