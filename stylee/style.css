@@ -187,35 +187,67 @@ button:hover {
 }
 
 @media (max-width: 659px) {
+
   .card-body {
     width: 85%;
     margin: 20px auto;
     padding: 10px;
   }
+
   .upload-area {
-    gap: 0px;
-    width: 80%;
+    width: 85%;
+    gap: 10px;
+    padding: 10px;
+    flex-wrap: nowrap;      
+    box-sizing: border-box;
   }
+
+  .ChooseFile {
+    width: auto;             
+    min-width: 0;
+    flex: 1;
+    align-items: flex-start;
+    overflow: hidden;
+  }
+
+  .ChooseFile input[type="file"] {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .profile-img {
+    flex-shrink: 0;
+  }
+
+  .profile-img img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+
   .input-field {
-    width: 80%;
+    width: 85%;
+    box-sizing: border-box;
   }
+
   .male-female {
     gap: 25px;
     margin-top: 8px;
   }
+
   button {
     padding: 15px 45px;
     border-radius: 20px;
   }
-  .ChooseFile{
-    width: 55%;
+
+  .text h1 {
+    font-size: 20px;
   }
- .text h1{
-  font-size: 20px;
- }
- .text p{
-  font-size: 12px;
- }
+
+  .text p {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 465px){
