@@ -9,7 +9,7 @@ body {
 
     .id-card {
       width: 30%;
-      height: 500px;
+      height: 520px;
       background: linear-gradient(135deg, #004aad, #007bff);
       color: #fff;
       border-radius: 12px;
@@ -97,3 +97,37 @@ body {
       height: 80px;
       width: 80px;
     }
+
+    @media (max-width: 1024px) {
+  .id-card {
+    width: 40%;
+    height: 540px;
+  }
+}
+
+
+  @media (max-width: 726px) {
+  .id-card {
+    width: 50%;
+  }
+}
+
+
+ @media (max-width: 606px) {
+  .id-card {
+    width: 65%;
+  }
+}
+
+ @media (max-width: 495px) {
+  .id-card {
+    width: 75%;
+  }
+}
+
+
+ @media (max-width: 409px) {
+  .id-card {
+    width: 85%;
+  }
+}

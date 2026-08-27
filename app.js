@@ -12,17 +12,17 @@ function generateCard() {
 
 
     if (!name || !father || !cnic || !email || !course || !gender) {
-        alert("❌ All fields are required");
+        alert("All fields are required");
         return;
     }
 
     if (cnic.length !== 13 || isNaN(cnic)) {
-        alert("❌ CNIC must be exactly 13 digits");
+        alert("CNIC must be exactly 13 digits");
         return;
     }
 
     if (!email.includes("@")) {
-        alert("❌ Email must contain @");
+        alert("Email must contain @");
         return;
     }
 
@@ -51,7 +51,7 @@ function generateCard() {
     if (fileInput.files[0]) {
         reader.readAsDataURL(fileInput.files[0]);
     } else {
-        alert("❌ Please upload image");
+        alert("Please upload image");
     }
 }
 
